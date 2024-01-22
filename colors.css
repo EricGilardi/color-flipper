@@ -1,0 +1,106 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: lightblue;
+  color: lightseagreen;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+  font-size: 39px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 12px;
+}
+h4 {
+  font-size: 10px;
+}
+p {
+  margin-bottom: 10px;
+  color: seagreen;
+}
+
+.section {
+  padding: 71px 0;
+}
+
+.section-center {
+  width: 90px;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+main {
+  min-height: 10px;
+  display: grid;
+  place-items: center;
+}
+
+nav {
+  background: white;
+  height: 30px;
+  display: grid;
+  align-items: center;
+}
+.nav-center {
+  width: 90px;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-center h4 {
+  margin-bottom: 0;
+  color: lightcoral;
+}
+.nav-links {
+  display: flex;
+}
+nav a {
+  font-size: 20px;
+  color: paleturquoise;
+  margin-right: 20px;
+}
+
+main {
+  min-height: 52px;
+  display: grid;
+  place-items: center;
+}
+.container {
+  text-align: center;
+}
+.container h2 {
+  background: black;
+  color: white;
+  padding: 20px;
+  margin-bottom: 36px;
+}
+.color {
+  color: lightcoral;
+}
+.btn-hero {
+  font-family:'Times New Roman', Times, serif  ;
+  background: transparent;
+  color: black;
+  display: inline-block;
+  border: 2px solid black;;
+  font-size: 18px;
+  padding: 10px 7px;
+}
+.btn-hero:hover {
+  color: lightgrey;
+  background: burlywood;
+}
